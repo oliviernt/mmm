@@ -1725,7 +1725,8 @@
 /* CTA */
 
 	#cta {
-		background-color: #B33F00;
+		background: linear-gradient(0deg, rgba(#B33F00, 0.6), rgba(#B33F00, 0.6)), url(../../images/Kasse-WEB.JPG);
+		background-size: cover;
 
 		.inner {
 			@include vendor('display', 'flex');

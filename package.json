@@ -1,0 +1,13 @@
+{
+  "name": "musik-mensch-miteinander",
+  "author": {
+    "email": "olivier.tille@gmail.com"
+  },
+  "devDependencies": {
+    "sass": "^1.70.0"
+  },
+  "scripts": {
+    "styles": "sass assets/sass:assets/css",
+    "styles:watch": "sass --watch assets/sass:assets/css"
+  }
+}
