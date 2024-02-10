@@ -5,7 +5,18 @@
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
 @import 'fontawesome-all.min.css';
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic');
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/assets/webfonts/OpenSans-VariableFont_wdth\,wght.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KaushanScript';
+    src: url('/assets/webfonts/KaushanScript-Regular.ttf');
+    font-display: swap;
+}
 
 /*
 	Spectral by HTML5 UP
@@ -176,6 +187,7 @@
 		line-height: 1em;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
 		text-transform: uppercase;
+		font-family: KaushanScript;
 
 		a {
 			color: inherit;

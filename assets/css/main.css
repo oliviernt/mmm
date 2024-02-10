@@ -1,5 +1,14 @@
 @import 'fontawesome-all.min.css';
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+@font-face {
+  font-family: "Open Sans";
+  src: url("/assets/webfonts/OpenSans-VariableFont_wdth,wght.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "KaushanScript";
+  src: url("/assets/webfonts/KaushanScript-Regular.ttf");
+  font-display: swap;
+}
 /*
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
@@ -155,6 +164,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1em;
   margin: 0 0 1em 0;
   text-transform: uppercase;
+  font-family: KaushanScript;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: inherit;
