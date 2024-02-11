@@ -2818,9 +2818,18 @@ nav > ul > li:hover > ul {
   display: block;
 }
 nav > ul > li > ul {
-  width: 13rem;
-  position: absolute;
   background-color: rgba(179, 63, 0, 0.7);
+}
+@media screen and (min-width: 737px) {
+  nav > ul > li > ul {
+    position: absolute;
+    width: 13rem;
+  }
+}
+@media screen and (min-width: 981px) {
+  nav > ul > li > ul {
+    width: 15rem;
+  }
 }
 nav > ul > li > ul > li, nav > ul > li > ul > li > a {
   display: block;
