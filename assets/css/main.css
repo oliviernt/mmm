@@ -2767,6 +2767,7 @@ nav ul > li {
   margin: 0.5em 0 0 0;
   padding: 0.5em 0 0 0;
   display: block;
+  position: relative;
 }
 @media screen and (min-width: 737px) {
   nav ul > li {
@@ -2798,6 +2799,9 @@ nav ul > li > a {
     line-height: 3em;
   }
 }
+nav ul > li > a:hover {
+  font-style: italic;
+}
 nav ul > li > a.active {
   font-weight: bold;
 }
@@ -2808,11 +2812,29 @@ nav ul > li > a.active:before {
   font-weight: bold;
   font-size: large;
 }
-nav ul > li > ul {
-  display: none;
+@media screen and (min-width: 737px) {
+  nav ul > li > ul {
+    display: none;
+  }
 }
 nav ul > li:hover > ul {
   display: block;
+}
+nav ul > li > ul {
+  width: 13rem;
+  position: absolute;
+  background-color: rgba(179, 63, 0, 0.7);
+}
+nav ul > li > ul > li, nav ul > li > ul > li > a {
+  display: block;
+  width: 100%;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul > li > ul > li > a {
+  padding: 0 1rem;
+  text-align: left;
 }
 @media screen and (max-width: 736px) {
   nav {

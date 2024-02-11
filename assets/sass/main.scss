@@ -1480,6 +1480,7 @@
 				margin: 0.5em 0 0 0;
 				padding: 0.5em 0 0 0;
 				display: block;
+				position: relative;
 
 				@include breakpoint('>=medium') {
 					display: inline-block;
@@ -1511,6 +1512,10 @@
 						line-height: 3em;
 					}
 
+					&:hover {
+						font-style: italic;
+					}
+
 					&.active {
 						font-weight: bold;
 
@@ -1523,12 +1528,34 @@
 					}}
 				}
 
-				> ul {
-					display: none;
+				@include breakpoint('>=medium') {
+					> ul {
+						display: none;
+					}
 				}
 
 				&:hover > ul {
 					display: block;
+				}
+
+				& > ul {
+					width: 13rem;
+					position: absolute;
+					background-color: transparentize(_palette(bg), 0.3);
+
+					& > li, 
+					& > li > a {
+						display: block;
+						width: 100%;
+						border: none;
+						margin: 0;
+						padding: 0;
+					}
+
+					& > li > a {
+						padding: 0 1rem;
+						text-align: left;
+					}
 				}
 			}
 		}
