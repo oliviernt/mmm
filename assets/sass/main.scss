@@ -1487,9 +1487,9 @@
 					margin: 0;
 					padding: 0 .3rem;
 					
-					&:nth-child(2) {
-						display: none;
-					}
+					// &:nth-child(2) {
+					// 	display: none;
+					// }
 				}
 
 				&:first-child {
@@ -1763,7 +1763,7 @@
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../../images/banner.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1771,7 +1771,43 @@
 			text-align: center;
 
 			&.piano {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/piano-5353974.jpg")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../../images/piano-5353974.jpg")'));
+				background-position: center center;
+				background-attachment: scroll;
+			}
+
+			&.angebot {
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../../images/Farbspiele-014-WEB.JPG")'));
+				background-position: center center;
+				background-attachment: scroll;
+			}
+
+			&.musikwichtel {
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../../images/Musikwichtel-WEB.JPG")'));
+				background-position: center center;
+				background-attachment: scroll;
+			}
+
+			&.erwachsenenkurs {
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../../images/Erwachsenenkurs-WEB.JPG")'));
+				background-position: center center;
+				background-attachment: scroll;
+			}
+
+			&.maerchenstunde {
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../../images/Maerchenstunde.JPG")'));
+				background-position: center center;
+				background-attachment: scroll;
+			}
+
+			&.preise {
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../../images/Kasse-WEB.JPG")'));
+				background-position: center center;
+				background-attachment: scroll;
+			}
+
+			&.ueber-mich {
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../../images/bach.jpg")'));
 				background-position: center center;
 				background-attachment: scroll;
 			}
@@ -1894,7 +1930,7 @@
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../../images/banner.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1915,7 +1951,7 @@
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../../images/banner.jpg")'));
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
