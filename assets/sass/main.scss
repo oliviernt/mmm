@@ -194,7 +194,7 @@
 	}
 
 	h2 {
-		font-size: 1.35em;
+		font-size: 2rem;
 		line-height: 1.75em;
 
 		@include breakpoint('<=small') {
@@ -1639,7 +1639,6 @@
 			@include vendor('transform', 'scale(1)');
 			@include vendor('transition', ('transform 0.5s ease', 'opacity 0.5s ease'));
 			display: inline-block;
-			font-size: 1.75em;
 			opacity: 1;
 			padding: 0.35em 1em;
 			position: relative;
@@ -1708,11 +1707,7 @@
 			@include padding(7em, 3em);
 			height: auto;
 			min-height: 0;
-
-			h2 {
-				font-size: 1.25em;
-			}
-
+			
 			br {
 				display: none;
 			}

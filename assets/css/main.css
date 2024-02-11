@@ -171,7 +171,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 h2 {
-  font-size: 1.35em;
+  font-size: 2rem;
   line-height: 1.75em;
 }
 @media screen and (max-width: 736px) {
@@ -2929,7 +2929,6 @@ body.is-menu-visible #menu {
   -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
   transition: transform 0.5s ease, opacity 0.5s ease;
   display: inline-block;
-  font-size: 1.75em;
   opacity: 1;
   padding: 0.35em 1em;
   position: relative;
@@ -3007,9 +3006,6 @@ body.is-menu-visible #menu {
     padding: 7em 3em 5em 3em;
     height: auto;
     min-height: 0;
-  }
-  #banner h2 {
-    font-size: 1.25em;
   }
   #banner br {
     display: none;
