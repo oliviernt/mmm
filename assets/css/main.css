@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import 'fontawesome-all.min.css';
 @font-face {
   font-family: "Open Sans";
@@ -2708,7 +2709,7 @@ nav {
   -ms-transition: -ms-transform 0.5s ease;
   transition: transform 0.5s ease;
   -webkit-overflow-scrolling: touch;
-  background: #21b2a6;
+  background: #B33F00;
   color: #ffffff;
   height: 100%;
   overflow-y: auto;
@@ -2773,14 +2774,14 @@ nav ul > li {
     margin: 0;
     padding: 0 0.3rem;
   }
+  nav ul > li:nth-child(2) {
+    display: none;
+  }
 }
 nav ul > li:first-child {
   border-top: 0 !important;
   margin-top: 0 !important;
   padding-top: 0 !important;
-}
-nav ul > li:nth-child(2) {
-  display: none;
 }
 nav ul > li > a {
   border: 0;
@@ -2796,6 +2797,22 @@ nav ul > li > a {
   nav ul > li > a {
     line-height: 3em;
   }
+}
+nav ul > li > a.active {
+  font-weight: bold;
+}
+nav ul > li > a.active:before {
+  width: 1rem;
+  height: inherit;
+  content: "♪";
+  font-weight: bold;
+  font-size: large;
+}
+nav ul > li > ul {
+  display: none;
+}
+nav ul > li:hover > ul {
+  display: block;
 }
 @media screen and (max-width: 736px) {
   nav {

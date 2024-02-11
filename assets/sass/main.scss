@@ -1420,7 +1420,7 @@
 		// @include vendor('transform', 'translateX(20em)');
 		@include vendor('transition', 'transform #{_duration(menu)} ease');
 		-webkit-overflow-scrolling: touch;
-		background: _palette(accent1, bg);
+		background: _palette(bg);
 		color: _palette(accent1, fg-bold);
 		height: 100%;
 		overflow-y: auto;
@@ -1485,15 +1485,16 @@
 					display: inline-block;
 					margin: 0;
 					padding: 0 .3rem;
+					
+					&:nth-child(2) {
+						display: none;
+					}
 				}
 
 				&:first-child {
 					border-top: 0 !important;
 					margin-top: 0 !important;
 					padding-top: 0 !important;
-				}
-				&:nth-child(2) {
-					display: none;
 				}
 
 				> a {
@@ -1509,6 +1510,25 @@
 					@include breakpoint('<=small') {
 						line-height: 3em;
 					}
+
+					&.active {
+						font-weight: bold;
+
+						&:before {
+						width: 1rem;
+						height: inherit;
+						content: '♪';
+						font-weight: bold;
+						font-size: large;
+					}}
+				}
+
+				> ul {
+					display: none;
+				}
+
+				&:hover > ul {
+					display: block;
 				}
 			}
 		}
