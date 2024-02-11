@@ -182,7 +182,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: _palette(fg-bold);
-		font-weight: _font(weight-extrabold);
+		font-weight: _font(weight);
 		line-height: 1em;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
 		font-family: KaushanScript;
@@ -1647,8 +1647,6 @@
 		}
 
 		p {
-			letter-spacing: _size(letter-spacing-alt);
-
 			a {
 				color: inherit;
 			}
@@ -1752,47 +1750,15 @@
 	#cta {
 		background: linear-gradient(0deg, rgba(#B33F00, 0.6), rgba(#B33F00, 0.6)), url(../../images/Kasse-WEB.JPG);
 		background-size: cover;
+		display: block;
+		text-align: center;
 
-		.inner {
-			@include vendor('display', 'flex');
-			max-width: 45em;
+		header {
+			padding-right: 0;
+			width: 100%;
 
-			header {
-				@include vendor('order', '1');
-				padding-right: 3em;
-				width: 70%;
-
-				p {
-					color: inherit;
-				}
-			}
-
-			.actions {
-				@include vendor('order', '2');
-				width: 30%;
-			}
-
-			@include breakpoint('<=medium') {
-				display: block;
-				text-align: center;
-
-				header {
-					padding-right: 0;
-					width: 100%;
-				}
-
-				.actions {
-					margin-left: auto;
-					margin-right: auto;
-					max-width: 20em;
-					width: 100%;
-				}
-			}
-
-			@include breakpoint('<=small') {
-				.actions {
-					max-width: none;
-				}
+			p {
+				color: inherit;
 			}
 		}
 	}
@@ -1808,6 +1774,12 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			text-align: center;
+
+			&.piano {
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/piano-5353974.jpg")'));
+				background-position: center center;
+				background-attachment: scroll;
+			}
 
 			h2 {
 				font-size: 1.75em;

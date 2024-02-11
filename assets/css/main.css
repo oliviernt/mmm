@@ -160,7 +160,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #fff;
-  font-weight: 800;
+  font-weight: 400;
   line-height: 1em;
   margin: 0 0 1em 0;
   font-family: KaushanScript;
@@ -2935,9 +2935,6 @@ body.is-menu-visible #menu {
   position: relative;
   z-index: 1;
 }
-#banner p {
-  letter-spacing: 0.225em;
-}
 #banner p a {
   color: inherit;
 }
@@ -3047,52 +3044,15 @@ body.is-preload #banner:after {
 #cta {
   background: linear-gradient(0deg, rgba(179, 63, 0, 0.6), rgba(179, 63, 0, 0.6)), url(../../images/Kasse-WEB.JPG);
   background-size: cover;
+  display: block;
+  text-align: center;
 }
-#cta .inner {
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  max-width: 45em;
+#cta header {
+  padding-right: 0;
+  width: 100%;
 }
-#cta .inner header {
-  -moz-order: 1;
-  -webkit-order: 1;
-  -ms-order: 1;
-  order: 1;
-  padding-right: 3em;
-  width: 70%;
-}
-#cta .inner header p {
+#cta header p {
   color: inherit;
-}
-#cta .inner .actions {
-  -moz-order: 2;
-  -webkit-order: 2;
-  -ms-order: 2;
-  order: 2;
-  width: 30%;
-}
-@media screen and (max-width: 980px) {
-  #cta .inner {
-    display: block;
-    text-align: center;
-  }
-  #cta .inner header {
-    padding-right: 0;
-    width: 100%;
-  }
-  #cta .inner .actions {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 20em;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 736px) {
-  #cta .inner .actions {
-    max-width: none;
-  }
 }
 
 /* Main */
@@ -3107,6 +3067,14 @@ body.is-preload #banner:after {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+}
+#main > header.piano {
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/piano-5353974.jpg");
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/piano-5353974.jpg");
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/piano-5353974.jpg");
+  background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/piano-5353974.jpg");
+  background-position: center center;
+  background-attachment: scroll;
 }
 #main > header h2 {
   font-size: 1.75em;
