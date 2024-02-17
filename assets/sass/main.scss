@@ -1835,6 +1835,16 @@
 				@include padding(5em, 3em);
 			}
 		}
+
+		#success {
+			display: none;
+		}
+		
+		&:target {
+			#success {
+				display: block;
+			}
+		}
 	}
 
 	body.is-mobile {
