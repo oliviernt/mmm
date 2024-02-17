@@ -174,22 +174,10 @@ h2 {
   font-size: 2rem;
   line-height: 1.75em;
 }
-@media screen and (max-width: 736px) {
-  h2 {
-    font-size: 1.1em;
-    line-height: 1.65em;
-  }
-}
 
 h3 {
   font-size: 1.15em;
   line-height: 1.75em;
-}
-@media screen and (max-width: 736px) {
-  h3 {
-    font-size: 1em;
-    line-height: 1.65em;
-  }
 }
 
 h4 {
@@ -3065,16 +3053,16 @@ body.is-preload #banner:after {
   background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/banner.jpg");
   background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/banner.jpg");
   background-attachment: fixed;
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
 }
 #main > header.piano {
-  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/piano-5353974.jpg");
-  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/piano-5353974.jpg");
-  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/piano-5353974.jpg");
-  background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/piano-5353974.jpg");
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/Farbspiele-014-WEB.JPG");
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/Farbspiele-014-WEB.JPG");
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/Farbspiele-014-WEB.JPG");
+  background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/Farbspiele-014-WEB.JPG");
   background-position: center center;
   background-attachment: scroll;
 }
@@ -3119,10 +3107,10 @@ body.is-preload #banner:after {
   background-attachment: scroll;
 }
 #main > header.ueber-mich {
-  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/bach.jpg");
-  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/bach.jpg");
-  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/bach.jpg");
-  background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/bach.jpg");
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/Juliane-067-WEB.JPG");
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/Juliane-067-WEB.JPG");
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/Juliane-067-WEB.JPG");
+  background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/Juliane-067-WEB.JPG");
   background-position: center center;
   background-attachment: scroll;
 }
@@ -3157,10 +3145,6 @@ body.is-preload #banner:after {
 @media screen and (max-width: 736px) {
   #main > header {
     padding: 5em 3em 3em 3em;
-  }
-  #main > header h2 {
-    font-size: 1.25em;
-    margin: 0 0 1em 0;
   }
 }
 
@@ -3236,7 +3220,7 @@ body.landing #page-wrapper {
   background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/banner.jpg");
   background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/banner.jpg");
   background-attachment: fixed;
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 0;
@@ -3254,7 +3238,7 @@ body.is-mobile.landing .wrapper.style4 {
   background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/banner.jpg");
   background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/banner.jpg");
   background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/banner.jpg");
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }

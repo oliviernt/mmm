@@ -8,6 +8,7 @@
   },
   "scripts": {
     "styles": "sass assets/sass:assets/css",
-    "styles:watch": "sass --watch assets/sass:assets/css"
+    "styles:watch": "sass --watch assets/sass:assets/css",
+    "start": "npx serve"
   }
 }

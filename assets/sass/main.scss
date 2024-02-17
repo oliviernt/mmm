@@ -196,21 +196,11 @@
 	h2 {
 		font-size: 2rem;
 		line-height: 1.75em;
-
-		@include breakpoint('<=small') {
-			font-size: 1.1em;
-			line-height: 1.65em;
-		}
 	}
 
 	h3 {
 		font-size: 1.15em;
 		line-height: 1.75em;
-
-		@include breakpoint('<=small') {
-			font-size: 1em;
-			line-height: 1.65em;
-		}
 	}
 
 	h4 {
@@ -1772,13 +1762,13 @@
 			@include padding(12em, 0);
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../../images/banner.jpg")'));
 			background-attachment: fixed;
-			background-position: center center;
+			background-position: top center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			text-align: center;
 
 			&.piano {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../../images/piano-5353974.jpg")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../../images/Farbspiele-014-WEB.JPG")'));
 				background-position: center center;
 				background-attachment: scroll;
 			}
@@ -1814,7 +1804,7 @@
 			}
 
 			&.ueber-mich {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../../images/bach.jpg")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../../images/Juliane-067-WEB.JPG")'));
 				background-position: center center;
 				background-attachment: scroll;
 			}
@@ -1849,11 +1839,6 @@
 
 			@include breakpoint('<=small') {
 				@include padding(5em, 3em);
-
-				h2 {
-					font-size: 1.25em;
-					margin: 0 0 (_size(element-margin) * 0.5) 0;
-				}
 			}
 		}
 	}
@@ -1939,7 +1924,7 @@
 		#page-wrapper {
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../../images/banner.jpg")'));
 			background-attachment: fixed;
-			background-position: center center;
+			background-position: top center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			padding-top: 0;
@@ -1959,7 +1944,7 @@
 			#banner,
 			.wrapper.style4 {
 				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("../../images/banner.jpg")'));
-				background-position: center center;
+				background-position: top center;
 				background-repeat: no-repeat;
 				background-size: cover;
 			}
