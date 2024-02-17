@@ -1397,7 +1397,7 @@
 		width: 16px;
 		border: none;
 		padding: 1.5rem;
-		background-image: url('/.netlify/images?url=/images/bars.svg');
+		background-image: url('/images/bars.svg');
 		background-position: center;
 		background-repeat: no-repeat;
 
@@ -1435,7 +1435,7 @@
 
 		.close {
 			 a {
-				background-image: url('/.netlify/images?url=/images/close.svg');
+				background-image: url('/images/close.svg');
 				background-position: center;
 				background-repeat: no-repeat;
 				border: 0;
@@ -1670,7 +1670,7 @@
 			z-index: 1;
 
 			&:after {
-				background-image: url('/.netlify/images?url=/images/arrow.svg');
+				background-image: url('/images/arrow.svg');
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
