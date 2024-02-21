@@ -3044,10 +3044,10 @@ body.is-preload #banner:after {
 /* Main */
 #main > header {
   padding: 12em 0 10em 0;
-  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=30&url=/images/banner.jpg");
-  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=30&url=/images/banner.jpg");
-  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=30&url=/images/banner.jpg");
-  background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=30&url=/images/banner.jpg");
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=10&url=/images/banner.jpg");
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=10&url=/images/banner.jpg");
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=10&url=/images/banner.jpg");
+  background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=10&url=/images/banner.jpg");
   background-attachment: fixed;
   background-position: top center;
   background-repeat: no-repeat;
@@ -3215,10 +3215,10 @@ body.is-mobile #main > header {
 
 /* Landing */
 body.landing #page-wrapper {
-  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=30&url=/images/banner.jpg");
-  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=30&url=/images/banner.jpg");
-  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=30&url=/images/banner.jpg");
-  background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=30&url=/images/banner.jpg");
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=10&url=/images/banner.jpg");
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=10&url=/images/banner.jpg");
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=10&url=/images/banner.jpg");
+  background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=10&url=/images/banner.jpg");
   background-attachment: fixed;
   background-position: top center;
   background-repeat: no-repeat;
@@ -3234,10 +3234,10 @@ body.is-mobile.landing #page-wrapper {
 }
 body.is-mobile.landing #banner,
 body.is-mobile.landing .wrapper.style4 {
-  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=30&url=/images/banner.jpg");
-  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=30&url=/images/banner.jpg");
-  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=30&url=/images/banner.jpg");
-  background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=30&url=/images/banner.jpg");
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=10&url=/images/banner.jpg");
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=10&url=/images/banner.jpg");
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=10&url=/images/banner.jpg");
+  background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/.netlify/images?q=10&url=/images/banner.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
