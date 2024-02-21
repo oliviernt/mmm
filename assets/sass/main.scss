@@ -1736,7 +1736,7 @@
 /* CTA */
 
 	#cta {
-		background: linear-gradient(0deg, rgba(#B33F00, 0.6), rgba(#B33F00, 0.6)), url(/.netlify/images?q=50&url=/images/Kasse-WEB.JPG);
+		background: linear-gradient(0deg, rgba(#B33F00, 0.6), rgba(#B33F00, 0.6)), url(/.netlify/images?q=30&url=/images/Kasse-WEB.JPG);
 		background-size: cover;
 		display: block;
 		text-align: center;
@@ -1756,7 +1756,7 @@
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("/.netlify/images?q=50&url=/images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("/.netlify/images?q=10&url=/images/banner.jpg")'));
 			background-attachment: fixed;
 			background-position: top center;
 			background-repeat: no-repeat;
@@ -1764,43 +1764,43 @@
 			text-align: center;
 
 			&.piano {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("/.netlify/images?q=50&url=/images/Farbspiele-014-WEB.JPG")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("/.netlify/images?q=30&url=/images/Farbspiele-014-WEB.JPG")'));
 				background-position: center center;
 				background-attachment: scroll;
 			}
 
 			&.angebot {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("/.netlify/images?q=50&url=/images/Farbspiele-014-WEB.JPG")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("/.netlify/images?q=30&url=/images/Farbspiele-014-WEB.JPG")'));
 				background-position: center center;
 				background-attachment: scroll;
 			}
 
 			&.musikwichtel {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("/.netlify/images?q=50&url=/images/Musikwichtel-WEB.JPG")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("/.netlify/images?q=30&url=/images/Musikwichtel-WEB.JPG")'));
 				background-position: center center;
 				background-attachment: scroll;
 			}
 
 			&.erwachsenenkurs {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("/.netlify/images?q=50&url=/images/Erwachsenenkurs-WEB.JPG")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("/.netlify/images?q=30&url=/images/Erwachsenenkurs-WEB.JPG")'));
 				background-position: center center;
 				background-attachment: scroll;
 			}
 
 			&.maerchenstunde {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("/.netlify/images?q=50&url=/images/Maerchenstunde.JPG")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("/.netlify/images?q=30&url=/images/Maerchenstunde.JPG")'));
 				background-position: center center;
 				background-attachment: scroll;
 			}
 
 			&.preise {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("/.netlify/images?q=50&url=/images/Kasse-WEB.JPG")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("/.netlify/images?q=30&url=/images/Kasse-WEB.JPG")'));
 				background-position: center center;
 				background-attachment: scroll;
 			}
 
 			&.ueber-mich {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("/.netlify/images?q=50&url=/images/Juliane-067-WEB.JPG")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("/.netlify/images?q=30&url=/images/Juliane-067-WEB.JPG")'));
 				background-position: center center;
 				background-attachment: scroll;
 			}
@@ -1926,7 +1926,7 @@
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("/.netlify/images?q=50&url=/images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("/.netlify/images?q=30&url=/images/banner.jpg")'));
 			background-attachment: fixed;
 			background-position: top center;
 			background-repeat: no-repeat;
@@ -1947,7 +1947,7 @@
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("/.netlify/images?q=50&url=/images/banner.jpg")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3))', 'url("/.netlify/images?q=30&url=/images/banner.jpg")'));
 				background-position: top center;
 				background-repeat: no-repeat;
 				background-size: cover;
