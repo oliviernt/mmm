@@ -1,6 +1,6 @@
 import { GoogleAuth } from "google-auth-library";
 import { google } from "googleapis";
-import { writeFileSync } from "fs";
+import { readFileSync, writeFileSync } from "fs";
 
 const apiKey = process.env.GOOGLE_SHEETS_API_KEY;
 const documentId = process.env.GOOGLE_SHEETS_DOCUMENT_ID;

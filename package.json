@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build:local": "node --env-file .env ./scripts/schedule.mjs",
-    "build:prod": "node ./scripts/schedule.mjs",
+    "build:prod": "node ./scripts/schedule.mjs && node ./scripts/overwrite.mjs",
     "styles": "sass assets/sass:assets/css",
     "styles:watch": "sass --watch assets/sass:assets/css",
     "start": "npx serve"
