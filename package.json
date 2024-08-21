@@ -1,12 +1,17 @@
 {
   "name": "musik-mensch-miteinander",
   "author": {
+    "name": "olivier Tille",
     "email": "olivier.tille@gmail.com"
   },
   "devDependencies": {
+    "google-auth-library": "^9.14.0",
+    "googleapis": "^142.0.0",
     "sass": "^1.70.0"
   },
   "scripts": {
+    "build:local": "node --env-file .env ./scripts/schedule.mjs",
+    "build:prod": "node ./scripts/schedule.mjs",
     "styles": "sass assets/sass:assets/css",
     "styles:watch": "sass --watch assets/sass:assets/css",
     "start": "npx serve"
