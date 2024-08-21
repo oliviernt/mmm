@@ -23,22 +23,28 @@ async function getValues(spreadsheetId, range) {
 
   const service = google.sheets({ version: "v4", auth });
   try {
+    const title =
+      (await service.spreadsheets.get({ spreadsheetId })).data?.properties
+        ?.title || "";
     const result = await service.spreadsheets.values.get({
       spreadsheetId,
       range,
     });
-    const numRows = result.data.values ? result.data.values.length : 0;
+    const { data, ...rest } = result;
+    // console.log(rest);
+    const numRows = data.values ? data.values.length : 0;
     console.log(`${numRows} rows retrieved.`);
-    return result?.data?.values ?? [];
+    return { values: data?.values ?? [], title };
   } catch (err) {
     throw err;
   }
 }
 
-const values = await getValues(documentId, "A1:C50");
+const { values, title } = await getValues(documentId, "A1:C50");
 
 const html = `
 <link rel="stylesheet" href="assets/css/main.css" />
+<h2>${title}</h2>
 <table>
 ${values
   .map(
