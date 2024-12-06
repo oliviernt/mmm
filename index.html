@@ -26,7 +26,9 @@
 	    "prefetch": [
 	      {
 	        "where": {
-	          "href_matches": "/*"
+	          "and": [
+	            { "href_matches": "/*" },
+		    ]
 	        },
 	        "eagerness": "immediate"
 	      }
@@ -34,7 +36,9 @@
 	    "prerender": [
 	      {
 	        "where": {
-	          "href_matches": "/*"
+	          "and": [
+	            { "href_matches": "/*" },
+		    ]
 	        },
 	        "eagerness": "moderate"
 	      }
