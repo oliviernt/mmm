@@ -21,30 +21,6 @@
       href="/.netlify/images?q=10&url=/images/banner.jpg"
       type="image/jpg"
     />
-    <script type="speculationrules">
-	  {
-	    "prefetch": [
-	      {
-	        "where": {
-	          "and": [
-	            { "href_matches": "/*" },
-		    ]
-	        },
-	        "eagerness": "immediate"
-	      }
-	    ],
-	    "prerender": [
-	      {
-	        "where": {
-	          "and": [
-	            { "href_matches": "/*" },
-		    ]
-	        },
-	        "eagerness": "moderate"
-	      }
-	    ]
-	  }
-    </script>
   </head>
 
   <body class="landing is-preload">
