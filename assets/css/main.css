@@ -9,6 +9,9 @@
   src: url("/assets/webfonts/KaushanScript-Regular.ttf");
   font-display: swap;
 }
+@view-transition {
+  navigation: auto;
+}
 /*
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
