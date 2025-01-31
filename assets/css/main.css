@@ -2710,6 +2710,7 @@ nav {
   max-width: 80%;
   z-index: 10002;
   display: none;
+  view-transition-name: navbar;
 }
 @media screen and (min-width: 737px) {
   nav {
